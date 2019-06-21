@@ -1,5 +1,5 @@
 class Wizard(models.TransientModel):
-    _name = 'openacademy.wizard'
+    _name = 'module.wizard'
     _description = "Wizard: Quick Registration of Attendees to Sessions"
 
     def _default_sessions(self):
