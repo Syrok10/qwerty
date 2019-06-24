@@ -54,7 +54,7 @@
         <menuitem id="course_menu" name="Courses" parent="openacademy_menu"
                   action="course_list_action"/>
 
-        <record model="ir.act_window" id="session_form_view">
+        <record model="ir.ui.view" id="session_form_view">
             <field name="name">session.form</field>
             <field name="model">openacademy.session</field>
             <field name="arch" type="xml">
