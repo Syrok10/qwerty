@@ -64,7 +64,7 @@
                             <field name="name"/>
                             <field name="start_date"/>
                             <field name="duration"/>
-                            <field name="seats"
+                            <field name="seats"/>
                         </group>
                     </sheet>
                 </form>
