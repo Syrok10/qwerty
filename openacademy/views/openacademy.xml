@@ -15,8 +15,13 @@
                         <page string="Description">
                             <field name="description"/>
                         </page>
-                        <page string="About">
-                            This is an example of natebook
+                        <page string="Session">
+                            <field name="session_ids">
+                                <tree string="Registered session">
+                                    <field name="name"/>
+                                    <field name="instructor_id"/>
+                                </tree>
+                            </field>
                         </page>
                     </notebook>
                     </sheet>
@@ -83,6 +88,8 @@
                             <field name="duration"/>
                             <field name="seats"/>
                         </group>
+                        <label for="attendee_ids"/>
+                        <label name="attendee_ids"/>
                     </sheet>
                 </form>
             </field>
