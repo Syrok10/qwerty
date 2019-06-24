@@ -92,10 +92,11 @@ class Session(models.Model):
             if not (r.start_date and r.duration):
                 r.end_date = r.start_date
                 continue
+
             # Add duration to start_date, but: Monday + 5 days = Saturday, so
             # subtract one second to get on Friday instead
             duration = timedelta(days=r.duration, seconds=-1)
-            r.end_date = str(r.start_date + duration)
+            r.end_date = r.start_date + duration.strftime('%d/%m/%Y')
 
     def _set_end_date(self):
         for r in self:
