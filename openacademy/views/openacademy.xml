@@ -17,7 +17,7 @@
 <!--        <menuitem id="openacademy_menu" name="Open Academy"-->
 <!--                  parent="main_openacademy_menu"/>-->
 
-<!--        <menuitem id="course_menu" name="Courses" parent="openacademy_menu"-->
-<!--                  action="course_list_action"/>-->
+        <menuitem id="course_menu" name="Courses" parent="openacademy_menu"
+                  action="course_list_action"/>
 
 </odoo>
