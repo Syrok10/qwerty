@@ -20,7 +20,11 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': [
+        'base_setup',
+        'mail',
+        'web'
+    ],
 
     # always loaded
     'data': [
@@ -31,5 +35,6 @@
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
+        'views/auth_signup_login_templates.xml',
     ],
 }
