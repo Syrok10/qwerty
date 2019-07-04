@@ -29,12 +29,10 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
+        'views/auth_signup_login_templates.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
-        'views/auth_signup_login_templates.xml',
     ],
 }
